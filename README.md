@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+ng new book-management
+ng i @ngrx/store @ngrx/effects
+ng g i models/book
+ng g i app.state
+ng g c book-list
+
+Create actions > book.action.ts
+Create reducer > book.reducer.ts
+
+Hook actions into reducers & set inital state
+
+Import global Store and hook the store > class > reducer
+
+ng g s books/book
+
+npm i @ngrx/store-devtools
